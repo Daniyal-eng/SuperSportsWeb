@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+#slider{
+	height:500px;
+    width:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	position:absolute;
+	z-index:-1;
+}
+#row1{
+	height:500px;
+}
+#logo img{
+	float:left;
+	margin-top:36px;
+}
+header{
+	height:120px;
+	width:80%;
+	margin:0 auto;
+}
+nav{
+	float:right;
+}
+nav ul{
+	list-style:none;
+	width:100%;
+}
+nav ul li{
+	float:left;
+	padding-left:30px;
+	margin-top:55px;
+}
+nav ul li a{
+	text-decoration:none;
+	color:#FFF;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	letter-spacing:0.8px;
+	font-size:14px;
+	
+	transition-property:color;
+	transition-duration:0.3s;
+	transition-timing-function:ease-out;
+}
+nav ul li a:hover{
+	color:#FC0;
+}
+nav ul li a.active{
+	color:#FC0;
+}
+#line{
+	width:100%;
+	border:0.5px solid #737373;
+}
+#slidertext{
+	width:80%;
+	height:100%;
+	margin:0 auto;
+	margin-top:150px;
+}
+#sliderheading{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:40px;
+	letter-spacing:0px;
+	font-weight:800;
+	color:#FFF;
+	text-align:center;
+	animation:example 2s;
+	position:relative;
+	animation-timing-function:linear;
+	-webkit-animation:example 2s;
+	-moz-animation:example 2s;
+	-o-animation:example 2s;
+}
+@keyframes example{
+	0%{opacity:0;}
+	100%{opacity:1;}	
+}
+
+#row2{
+    width:80%;
+	margin:0 auto;
+	margin-top:125px;
+}
+#table{
+	margin:0 auto;
+	text-align:center;
+	border-collapse:collapse;
+}
+td{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+	font-weight:bold;
+	padding: 9px 50px 9px 50px;
+	border:1px solid #CCC;
+}
+
+/*------------------------*/
+
+footer{
+    width:100%;
+	height:462px;
+	background:#3A3A3A;
+	margin-top:120px;
+}
+#footerimg{
+	width:580px;
+	height:410px;
+	position:absolute;
+}
+#rowfooter{
+	margin:0 auto;
+	width:80%;
+	height:310px;
+	/*background:#930;*/
+	position:relative;
+	z-index:1;
+	top:100px;
+}
+#footerlogo{
+}
+#footertext1{
+	color:#FFF;
+	margin-top:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	width:400px;
+	line-height:25px;
+}
+#sicon1{	
+	width:15px;
+	margin-right:10px;
+	margin-top:30px;
+}
+/*#sicon1:hover{
+	background:#FC0;
+}*/
+#rightshadow{
+	margin-top:-310px;
+	margin-left:579px;
+/*	position:relative;
+	z-index:1;*/
+}
+#footerheading1{
+	text-align:center;
+	margin-top:-200px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:26px;
+	color:#FFF;
+	letter-spacing:1px;
+}
+#footertext2{
+	float:left;
+	margin-left:480px;
+	color:#FFF;
+	margin-top:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	width:300px;
+	line-height:25px;
+}
+#footerheading2{
+	float:right;
+	margin-right:150px;
+	margin-top:-31px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:26px;
+	color:#FFF;
+	letter-spacing:1px;
+}
+input[type=email]{
+	position:relative;
+	left:50px;
+	padding:12px 55px 12px 20px;
+	margin-right:57px;
+	margin-top:25px;
+	background:#333;
+	color:#999;
+	font-size:14px;
+	letter-spacing:0.7px;
+	border:1px solid #666;
+	margin-bottom:10px;
+}
+input[type=submit]{
+	position:relative;
+	right:12px;
+	bottom:1px;
+	border:1px solid #666;
+	margin-top:40px;
+	margin-right:-297px;
+	padding:12px 9px 13px 9px;
+	background:#333;
+	color:#FFF;
+	
+	transition-property:background;
+	transition-duration:0.3s;
+	transition-timing-function:ease-out;
+}
+input[type=submit]:hover{
+	border:1px solid #666;
+	background:#FC0;
+	color:#FFF;
+}
+#footerphone{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	margin-top:30px;
+	color:#FFF;
+	letter-spacing:1px;
+	position:relative;
+	left:55px;
+}
+#no{
+	font-weight:100;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#999;
+}
+#footeremail{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	margin-top:10px;
+	color:#FFF;
+	letter-spacing:1px;
+	position:relative;
+	left:55px;
+}
+#bottom{
+	position:relative;
+	z-index:1;
+	top:-2px;
+	width:100%;
+	background:#666;
+	height:52px;
+}
+#row2footer{
+	margin:0 auto;
+	width:80%;
+}
+#cr{
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:15px;
+	padding-top:17px;
+}
+#cr1{
+	float:right;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:15px;
+	padding-top:10px
+}
+#heart{
+	color:#FC0;
+	font-size:22px;
+}
